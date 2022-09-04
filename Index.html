@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/link.css"/>
+</head>
+<body>
+<div>
+    <a class="link" href="Index.html">Home</a>
+    <a class="link" href="HTML/MyGroupe.html">MyGroupe</a>
+    <a class="link" href="PHP/GetArray.php">GetArray</a>
+    <a class="link" href="PHP/PHPTestRequests.php">TEST</a>
+</div>
+
+<h1 class="heading">Розрахунок окладу працівника</h1>
+<h1 class="heading">Сайт на якому можна розрахувати оклад працівника</h1>
+<div lass="main_elem">
+    <form action="MakeSum.php" method="post">
+        <p>Оклад </p> <input type="text" name="Oklad"/>
+        <p>Кількість днів </p> <input type="text" name="Days_count" />
+        <p>Профспілка </p> <input type="checkbox" name="isProf" />
+        <p>Результат </p> <input type="text" name="res" />
+        <input class="btn btn-info" type="submit" value="Розрахувати">
+    </form>
+</div>
+<footer>
+    <p class="paragraph">Роботу виконав Вінічук Олександр</p>
+</footer>
+
+<script src="js/Script.js"></script>
+</body>
+</html>
